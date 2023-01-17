@@ -24,8 +24,12 @@ function Header() {
     };
 
     return (
-        <div>
+        <div className="headerContainer">
             <h1>Daniel Perez Garnica</h1>
+            <Navigation 
+            currentPage={currentPage} h
+            andlePageChange={handlePageChange}></ Navigation>
+            <div>{renderPage(currentPage)}</div>
         </div>
     );
 }
