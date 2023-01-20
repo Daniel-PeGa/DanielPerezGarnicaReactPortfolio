@@ -3,8 +3,8 @@ import React from 'react';
 function Navigation(props) {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
     return (
-        <div className="tabs is-centered">
-        <ul className="nav nav-tabs">
+        <div className="tabs is-centere optionsList">
+        <ul className="nav nav-tabs pageOptions">
           {tabs.map((tab) => (
             <li
               className={
@@ -12,6 +12,7 @@ function Navigation(props) {
               }
               key={tab}
             >
+              <div className="pageRendered">
               <a
                 href={"#" + tab.toLowerCase()}
                 // Whenever a tab is clicked on,
@@ -23,6 +24,7 @@ function Navigation(props) {
               >
                 {tab}
               </a>
+            </div>
             </li>
           ))}
         </ul>

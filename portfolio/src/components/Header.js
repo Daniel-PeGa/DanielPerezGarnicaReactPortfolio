@@ -11,15 +11,15 @@ function Header() {
     const renderPage = () => {
         switch (currentPage) {
             case 'About':
-                return <About />;
+                return <div><About /></div>;
             case 'Portfolio':
-                return <Portfolio />;
+                return <div><Portfolio /></div>;
             case 'Contact':
-                return <Contact />;
+                return <div><Contact /></div>;
             case 'Resume':
-                return <Resume />;
+                return <div><Resume /></div>;
             default:
-                return <About />;
+                return <div><About /></div>;
         }
     };
 
@@ -28,7 +28,7 @@ function Header() {
             <div className="headerName">
             <h1>Daniel Perez Garnica</h1>
             </div>
-            <div className="pageOptions">
+            <div className="">
             <Navigation 
             currentPage={currentPage} 
             handlePageChange={handlePageChange}></ Navigation>
