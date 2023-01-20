@@ -25,11 +25,15 @@ function Header() {
 
     return (
         <div className="headerContainer">
+            <div className="headerName">
             <h1>Daniel Perez Garnica</h1>
+            </div>
+            <div className="pageOptions">
             <Navigation 
-            currentPage={currentPage} h
-            andlePageChange={handlePageChange}></ Navigation>
+            currentPage={currentPage} 
+            handlePageChange={handlePageChange}></ Navigation>
             <div>{renderPage(currentPage)}</div>
+            </div>
         </div>
     );
 }
