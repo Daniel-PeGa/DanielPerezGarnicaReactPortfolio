@@ -56,6 +56,10 @@ code {
   display: flex;
 }
 
+.profilePicture {
+  max-width: 20%;
+}
+
 .footerContainer {
   position: relative;
   display: flex;
