@@ -8,7 +8,7 @@ function Navigation(props) {
           {tabs.map((tab) => (
             <li
               className={
-                props.currentPage === tab ? "nav-item is-active" : "nav-item"
+                props.currentPage === tab ? "nav-item is-active text-decorations" : "nav-item text-decorations"
               }
               key={tab}
             >

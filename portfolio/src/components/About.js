@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="aboutContent">
+        <div className="flexCenterCol">
         <p>I'm Daniel Perez Garnica. </p>
         <img className="profilePicture" src="/images/danielPhoto.jpeg" alt="danielPhoto" />
         <p className="w80">Recent graduate from Vanderbilt University's Coding Bootcamp, where I learned how to make use of different technologies
