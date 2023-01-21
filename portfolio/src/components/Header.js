@@ -4,6 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
+import Entrepreneurship from './Entrepreneurship'
 
 function Header() {
     const [currentPage, handlePageChange] = useState('About');
@@ -14,6 +15,8 @@ function Header() {
                 return <div><About /></div>;
             case 'Portfolio':
                 return <div><Portfolio /></div>;
+            case 'Entrepreneurship':
+                return <div><Entrepreneurship /></div>
             case 'Contact':
                 return <div><Contact /></div>;
             case 'Resume':

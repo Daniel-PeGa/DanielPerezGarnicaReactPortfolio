@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navigation(props) {
-    const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
+    const tabs = ['About', 'Portfolio', 'Entrepreneurship', 'Contact', 'Resume']
     return (
         <div className="tabs is-centere optionsList">
         <ul className="nav nav-tabs pageOptions">
@@ -19,7 +19,7 @@ function Navigation(props) {
                 // the current page is set through the handlePageChange props.
                 onClick={() => props.handlePageChange(tab)}
                 className={
-                  props.currentPage === tab ? "nav-link active" : "nav-link"
+                  props.currentPage === tab ? "nav-link active text-decorations" : "nav-link text-decorations"
                 }
               >
                 {tab}
