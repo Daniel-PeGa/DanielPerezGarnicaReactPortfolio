@@ -3,7 +3,7 @@ import React from 'react';
 function Navigation(props) {
     const tabs = ['About', 'Portfolio', 'Entrepreneurship', 'Contact', 'Resume']
     return (
-        <div className="tabs is-centere optionsList">
+        <div className="w80 flexCenterCol">
         <ul className="nav nav-tabs pageOptions">
           {tabs.map((tab) => (
             <li

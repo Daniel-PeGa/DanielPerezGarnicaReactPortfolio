@@ -2,15 +2,15 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div>
-      <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
+    <div className="flexCenterCol">
+      <div className="border maxW80 flexCenterRow">
         {props.projects.map((project) => (
-          <div className="column is-half">
+          <div className="w40 flexCenterCol border m02">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-4by3">
+                <figure className="">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+                    <img className="w100" src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
                   </a>
                 </figure>
               </div>
@@ -28,16 +28,15 @@ function Project(props) {
                   {project.description}
                   <br />
                   <br />
-                  <div className="content is-family-code">
-                    Languages: {project.languages}
-                    <br />
-                    NPM Packages: {project.packages}
+                  <div className="content is-family-code flexCenterCol">
+                  <div className="flexCenterCol">  Languages: {project.languages} </div>
                   </div>
                   <div className="card">
+                    <br />
                     <footer className="card-footer">
                       <a
                         href={project.repo}
-                        className="card-footer-item"
+                        className="card-footer-item text-decorations"
                         target="_blank" rel="noreferrer"
                       >
                         See the Repo!
@@ -45,7 +44,7 @@ function Project(props) {
                       <br />
                       <a
                         href={project.live}
-                        className="card-footer-item"
+                        className="card-footer-item text-decorations"
                         target="_blank" rel="noreferrer"
                       >
                         See the Live Site!

@@ -31,7 +31,7 @@ function Header() {
             <div className="headerName">
             <h1>Daniel Perez Garnica</h1>
             </div>
-            <div className="">
+            <div className="flexCenterCol">
             <Navigation 
             currentPage={currentPage} 
             handlePageChange={handlePageChange}></ Navigation>

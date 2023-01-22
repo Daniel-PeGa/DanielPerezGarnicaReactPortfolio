@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="flexCenterCol">
         <p>I'm Daniel Perez Garnica. </p>
-        <img className="profilePicture" src="/images/danielPhoto.jpeg" alt="danielPhoto" />
+        <img className="w20" src="/images/danielPhoto.jpeg" alt="danielPhoto" />
         <p className="w80">Recent graduate from Vanderbilt University's Coding Bootcamp, where I learned how to make use of different technologies
             to create an application. Such technologies include:
         </p>
