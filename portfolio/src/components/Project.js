@@ -18,7 +18,7 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <h1 className="title is-4 headerName" key={project.id}>
+                    <h1 className="title is-4" key={project.id}>
                       {project.title}
                     </h1>
                   </div>
@@ -28,7 +28,7 @@ function Project(props) {
                   {project.description}
                   <br />
                   <br />
-                  <div className="content is-family-code flexCenterCol">
+                  <div className="content is-family-code flexCenterCol noBackground">
                   <div className="flexCenterCol">  Languages: {project.languages} </div>
                   </div>
                   <div className="card flexCenterCol">
