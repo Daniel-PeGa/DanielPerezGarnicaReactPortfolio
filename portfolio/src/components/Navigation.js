@@ -21,8 +21,7 @@ function Navigation(props) {
                 className={
                   props.currentPage === tab ? "nav-link active text-decorations" : "nav-link text-decorations"
                 }
-              >
-                {tab}
+              ><button className="noselect text-decorations">{tab}</button>
               </a>
             </div>
             </li>

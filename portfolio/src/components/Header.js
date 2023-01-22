@@ -28,7 +28,7 @@ function Header() {
 
     return (
         <div className="headerContainer">
-            <div className="headerName">
+            <div className="headerName border">
             <h1>Daniel Perez Garnica</h1>
             </div>
             <div className="flexCenterCol">

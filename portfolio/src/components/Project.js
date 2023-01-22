@@ -18,9 +18,9 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <p className="title is-4" key={project.id}>
+                    <h1 className="title is-4" key={project.id}>
                       {project.title}
-                    </p>
+                    </h1>
                   </div>
                 </div>
 
@@ -31,23 +31,21 @@ function Project(props) {
                   <div className="content is-family-code flexCenterCol">
                   <div className="flexCenterCol">  Languages: {project.languages} </div>
                   </div>
-                  <div className="card">
+                  <div className="card flexCenterCol">
                     <br />
                     <footer className="card-footer">
                       <a
                         href={project.repo}
                         className="card-footer-item text-decorations"
                         target="_blank" rel="noreferrer"
-                      >
-                        See the Repo!
+                      ><button class="noselect">Repo</button>
                       </a>
                       <br />
                       <a
                         href={project.live}
                         className="card-footer-item text-decorations"
                         target="_blank" rel="noreferrer"
-                      >
-                        See the Live Site!
+                      ><button class="noselect">Live Site</button>
                       </a>
                     </footer>
                   </div>
