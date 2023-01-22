@@ -7,6 +7,7 @@ function About() {
         <p className="w80">Recent graduate from Vanderbilt University's Coding Bootcamp, where I learned how to make use of different technologies
             to create an application. Such technologies include:
         </p>
+
         <div className="row noList">
         <li>
             <ul>HTML</ul>

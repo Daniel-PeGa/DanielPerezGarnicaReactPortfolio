@@ -10,7 +10,7 @@ function Project(props) {
               <div className="card-image">
                 <figure className="">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img className="w100" src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+                    <img className="w100" src={process.env.PUBLIC_URL + project.image} alt="Placeholder" />
                   </a>
                 </figure>
               </div>
@@ -18,7 +18,7 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <h1 className="title is-4" key={project.id}>
+                    <h1 className="title is-4 headerName" key={project.id}>
                       {project.title}
                     </h1>
                   </div>
