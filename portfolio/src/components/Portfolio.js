@@ -88,13 +88,17 @@ const projects = [
 function Portfolio() {
     return (
         <div className="flexCenterCol">
+            <h1>Portfolio</h1>
         <p>This are some projects I've worked at during my time in Vanderbilt University's coding bootcamp:
         </p>
         <div>
             <Project projects={projects}/>
         </div>
-        <p>And this are some projects I have been working on just out of curiosity:</p>
+        {/* <p>And this are some projects I have been working on just out of curiosity:</p> */}
         <p>For more, you can visit my github page:</p>
+        <a href="https://github.com/Daniel-PeGa">
+        <img href="https://github.com/Daniel-PeGa" src="/images/GithubLogo.png" alt="githubLogo" />
+        </a>
         </div>
     );
 }
