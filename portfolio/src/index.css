@@ -7,13 +7,21 @@ body {
   font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #000000; */
-	/* background-image: linear-gradient(350deg, #fdfdfd 0%, #393838 14%); */
+  color: #FFD700;
+  background-color: #000000; 
+	background-image: linear-gradient(180deg, #fdfdfd 0%, #393838 14%);
+
+  /* border-color: brown;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px; */
+
+}
+
+/* .border {
   border-color: brown;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-
-}
+} */
 
 .text-decorations {
   text-decoration: none;
@@ -95,7 +103,8 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: linear-gradient(360deg, #fdfdfd 0%, #393838 25%); */
+  color: #FFD700;
+  background-image: linear-gradient(360deg, #fdfdfd 0%, #393838 25%);
 
 
   /* border-color: brown;
@@ -125,9 +134,9 @@ code {
   align-items: center;
   text-decoration: none;
 
-  border-color: brown;
+  /* border-color: brown;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 1px 1px 1px 1px; */
 
 }
 

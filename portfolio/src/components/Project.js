@@ -3,9 +3,9 @@ import React from "react";
 function Project(props) {
   return (
     <div className="flexCenterCol">
-      <div className="border maxW80 flexCenterRow">
+      <div className=" maxW80 flexCenterRow">
         {props.projects.map((project) => (
-          <div className="w40 flexCenterCol border m02">
+          <div className="w40 flexCenterCol m02">
             <div className="card">
               <div className="card-image">
                 <figure className="">

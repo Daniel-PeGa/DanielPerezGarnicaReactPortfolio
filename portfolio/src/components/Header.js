@@ -28,9 +28,11 @@ function Header() {
 
     return (
         <div className="headerContainer">
-            <div className="headerName border">
+            <a href="/" className="text-decorations">
+            <div className="headerName glow">
             <h1>Daniel Perez Garnica</h1>
             </div>
+            </a>
             <div className="flexCenterCol">
             <Navigation 
             currentPage={currentPage} 
