@@ -97,6 +97,10 @@ code {
   flex-wrap: wrap;
 }
 
+.spaceAround {
+  justify-content: space-around;
+}
+
 .headerName {
   width: 100%;
   display: flex;

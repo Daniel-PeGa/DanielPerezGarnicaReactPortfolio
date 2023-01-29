@@ -4,7 +4,8 @@ function Entrepreneurship() {
     return (
         <div>
         <h1>Entrepreneurship Path</h1>
-
+        <div className="flexCenterRow spaceAround">
+            <div className="w40">
         <p>
             From a very early age, I have had an Entrepreneur mindset. 
         </p>
@@ -16,6 +17,8 @@ function Entrepreneurship() {
             As a child, I could be found selling my school lunch for as much as I could possibly get,
             as well as my Halloween candies, ice cream throughout the summer, etc. You name it, I can sell it.
         </p>
+        </div>
+        <div>
         <p>
             At school, I received different awards for my business skills, such as:
         </p>
@@ -26,13 +29,15 @@ function Entrepreneurship() {
             <li>Principles of Finance National Level Competitor for DECA</li>
             <li>Award of Excellence in Economics at Columbia State Community College</li>
         </ul>
+        </div>
+        </div>
         <p>
             Currently Trying to apply my recently acquired software development skills to create
             an algorithm to trade online. You can check my github repository about it by clicking on the 
             picture below:
         </p>
         <a href="https://github.com/Daniel-PeGa/algoTrading">
-            <img src="/images/stonks.png" alt="stonks"/>
+            <img className="w20" src="/images/stonks.png" alt="stonks"/>
         </a>
         </div>
     );
